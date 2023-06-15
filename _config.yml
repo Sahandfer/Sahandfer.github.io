@@ -82,12 +82,12 @@ social:
 author:
   name             : "Sahand Sabour"
   avatar           : "profile.png"
-  bio              : "PhD Candidate NLProc, Department of Computer Science and Technology"
+  bio              : "PhD Candidate NLProc, Department of Computer Science and Technology, Tsinghua University"
   location         : "Beijing, China"
-  employer         :  "Tsinghua University"
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=EaOudNsAAAAJ&hl=en"
-  email            :
+  email            : "Sahandfer@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -175,15 +175,10 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+
 
 
 # Defaults
