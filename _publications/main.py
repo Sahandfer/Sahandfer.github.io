@@ -16,15 +16,15 @@ venue: '{paper["venue"]}'
 ---
 {paper['abstract']}
 
-[View Paper]({paper['url']})
+[[Paper]]({paper['url']})    {f"[[Code]]({paper['code']})" if paper['code']  else ''}
 
 Citation: 
 ```latex
-    {paper['citation']}
+{paper['citation']}
 ```
     """
     )
-    titles.append(f"{paper['date']}-{paper['title'].replace(' ','-')}")
+    titles.append(f"{paper['date'].replace('/', '-')}-{paper['nickname']}")
 
 for entry, title in zip(entries, titles):
     with open(f"./{title}.md", "w") as f:
