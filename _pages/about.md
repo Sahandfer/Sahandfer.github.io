@@ -11,15 +11,15 @@ redirect_from:
 
 <div style="text-align: justify; margin-bottom: 6px">
 Hey!
-I'm Sahand (aka Sam or 山姆), currently a  <a style="pointer-events: none;">second-year PhD</a> student at <a style="pointer-events: none;">Tsinghua University's Conversational AI lab (THU CoAI)</a>, advised by Prof. Minlie Huang. 
+I'm Sahand (aka Sam or 山姆), currently a  <a style="pointer-events: none; text-decoration: none">second-year PhD</a> student at <a style="pointer-events: none; text-decoration: none">Tsinghua University's Conversational AI lab (THU CoAI)</a>, advised by Prof. Minlie Huang. 
 Before that, I obtained my Bachelor's degree at Xi'an Jiaotong Liverpool University in 2020 and my Master's degree at Tsinghua University in 2022, majoring in Computer Science and Technology.
 </div>
 
 <div style="text-align: justify; margin-bottom: 8px">
-My research mainly revolves around <a style="pointer-events: none;">Emotional Intelligence</a> in Natural Language Processing, specifically in the domain of open-domain conversational agents or <a style="pointer-events: none;">chatbots</a>. 
-This line of work aims to enable these agents to better engage with users through <a style="pointer-events: none;">modeling human behavior</a> by understanding <a style="pointer-events: none;">user's emotions</a>, demonstrating <a style="pointer-events: none;">empathy</a>, and providing appropriate <a style="pointer-events: none;">support and companionship</a>.
-More recently, I have shifted my focus to more task-specific cases of this research direction to explore the use of agents in <a style="pointer-events: none;">mental health support</a>.
-With the worldwide prevalence of mental health issues and mental distress becoming a more critical issue in our society, such models can help facilitate <a style="pointer-events: none;">affordable and available support</a> for those in need. 
+My research mainly revolves around <a style="pointer-events: none; text-decoration: none">Emotional Intelligence</a> in Natural Language Processing, specifically in the domain of open-domain conversational agents or <a style="pointer-events: none; text-decoration: none">chatbots</a>. 
+This line of work aims to enable these agents to better engage with users through <a style="pointer-events: none; text-decoration: none">modeling human behavior</a> by understanding <a style="pointer-events: none; text-decoration: none">user's emotions</a>, demonstrating <a style="pointer-events: none; text-decoration: none">empathy</a>, and providing appropriate <a style="pointer-events: none; text-decoration: none">support and companionship</a>.
+More recently, I have shifted my focus to more task-specific cases of this research direction to explore the use of agents in <a style="pointer-events: none; text-decoration: none">mental health support</a>.
+With the worldwide prevalence of mental health issues and mental distress becoming a more critical issue in our society, such models can help facilitate <a style="pointer-events: none; text-decoration: none">affordable and available support</a> for those in need. 
 </div>
 
 <div style="text-align: justify; margin-bottom: -8px">
