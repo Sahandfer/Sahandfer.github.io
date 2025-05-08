@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: 26, 54, 93;
+  --color-secondary: 247, 247, 247;
+  --color-accent: 44, 122, 123;
+  --color-success: 34, 197, 94;
+  --color-warning: 234, 179, 8;
+  --color-error: 239, 68, 68;
+  --color-text: 15, 23, 42;
+  --color-background: 255, 255, 255;
+}
+
+.dark {
+  --color-primary: 56, 95, 157;
+  --color-secondary: 30, 30, 30;
+  --color-accent: 78, 184, 185;
+  --color-text: 241, 245, 249;
+  --color-background: 15, 23, 42;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text transition-colors duration-300;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium leading-tight;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-12 md:py-20;
+  }
+
+  .container {
+    @apply px-4 mx-auto max-w-6xl;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary/90 focus-visible:ring-primary;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-text hover:bg-secondary/80 focus-visible:ring-secondary;
+  }
+
+  .card {
+    @apply rounded-lg border border-border bg-card text-card-foreground shadow;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+  }
+}
