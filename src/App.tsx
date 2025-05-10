@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Home from './pages/Home';
@@ -24,7 +24,7 @@ function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/EmoBench" element={<EmoBench />} />
+            <Route path="/emobench" element={<EmoBench />} />
             {/* <Route path="/project/:id" element={<ProjectDetail />} /> */}
           </Routes>
         </main>
