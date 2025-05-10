@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 
 const Home = () => {
   useEffect(() => {
-    document.title = 'NLP Researcher Portfolio';
+    document.title = 'Sahand Sabour';
   }, []);
 
   return (

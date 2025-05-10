@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Home from './pages/Home';
-import ProjectDetail from './pages/ProjectDetail';
+import EmoBench from './pages/Emobench';
 import ScrollToTop from './components/ui/ScrollToTop';
 import { ThemeProvider } from './context/ThemeContext';
 
@@ -25,7 +25,8 @@ function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/project/:id" element={<ProjectDetail />} />
+            <Route path="/EmoBench" element={<EmoBench />} />
+            {/* <Route path="/project/:id" element={<ProjectDetail />} /> */}
           </Routes>
         </main>
         <Footer />
