@@ -35,7 +35,8 @@ export const publications: Publication[] = [
     abstract: "In this project, we propose a benchmark assessing emotional understanding and application in LLMs, revealing substantial gaps between machine and human emotional intelligence through 400 hand-crafted reasoning questions.",
     links: [
       { label: "PDF", url: "https://arxiv.org/pdf/2402.12071" },
-      { label: "Code", url: "https://github.com/Sahandfer/EmoBench" }
+      { label: "Code", url: "https://github.com/Sahandfer/EmoBench" },
+      { label: "Leaderboard", url: "/EmoBench" }
     ]
   },
   {

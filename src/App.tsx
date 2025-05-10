@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Home from './pages/Home';
@@ -11,7 +11,6 @@ function App() {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    // Simulate loading to allow for entrance animation
     setTimeout(() => {
       setIsLoaded(true);
     }, 300);
@@ -19,18 +18,20 @@ function App() {
 
   return (
     <ThemeProvider>
-      <div className={`min-h-screen flex flex-col transition-opacity duration-700 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
-        <ScrollToTop />
-        <Header />
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/EmoBench" element={<EmoBench />} />
-            {/* <Route path="/project/:id" element={<ProjectDetail />} /> */}
-          </Routes>
-        </main>
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <div className={`min-h-screen flex flex-col transition-opacity duration-700 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
+          <ScrollToTop />
+          <Header />
+          <main className="flex-grow">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/EmoBench" element={<EmoBench />} />
+              {/* <Route path="/project/:id" element={<ProjectDetail />} /> */}
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }
