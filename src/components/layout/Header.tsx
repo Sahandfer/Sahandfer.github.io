@@ -33,7 +33,6 @@ const Header = () => {
     { name: 'Research', path: '/#research' },
     { name: 'Publications', path: '/#publications' },
     { name: 'Contact', path: '/#contact' },
-    { name: 'Test', path: '/emobench' },
   ];
 
   const socialLinks = [

@@ -347,7 +347,7 @@ export const leaderboard = [
     },
     {
         modelName: "Baichuan4",
-        organization: "Baichuan",
+        organization: "Baichuan Inc",
         overall: {
             en: 60.5,
             zh: 57.25,
@@ -865,7 +865,7 @@ export const leaderboard = [
     },
     {
         modelName: "ChatGLM3-66B (Base)",
-        organization: "THUDM",
+        organization: "ZhipuAI",
 
         overall: {
             en: 0.5081,
@@ -904,7 +904,7 @@ export const leaderboard = [
 
     {
         modelName: "ChatGLM3-66B (CoT)",
-        organization: "THUDM",
+        organization: "ZhipuAI",
 
         overall: {
             en: 0.4844,
@@ -1094,7 +1094,7 @@ export const leaderboard = [
     },
     {
         modelName: "Qwen-Chat-14B (Base)",
-        organization: "Qwen",
+        organization: "Alibaba",
 
         overall: {
             en: 0.4800,
@@ -1132,7 +1132,7 @@ export const leaderboard = [
     },
     {
         modelName: "Qwen-Chat-14B (CoT)",
-        organization: "Qwen",
+        organization: "Alibaba",
 
         overall: {
             en: 0.3669,
@@ -1322,7 +1322,7 @@ export const leaderboard = [
     },
     {
         modelName: "Qwen-Chat-7B (Base)",
-        organization: "Qwen",
+        organization: "Alibaba",
 
         overall: {
             en: 0.3856,
@@ -1360,7 +1360,7 @@ export const leaderboard = [
     },
     {
         modelName: "Qwen-Chat-7B (CoT)",
-        organization: "Qwen",
+        organization: "Alibaba",
 
         overall: {
             en: 0.3275,
@@ -1398,7 +1398,7 @@ export const leaderboard = [
     },
     {
         modelName: "ChatGLM3-6B (Base)",
-        organization: "THUDM",
+        organization: "ZhipuAI",
 
         overall: {
             en: 0.3788,
@@ -1436,7 +1436,7 @@ export const leaderboard = [
     },
     {
         modelName: "ChatGLM3-6B (CoT)",
-        organization: "THUDM",
+        organization: "ZhipuAI",
 
         overall: {
             en: 0.3638,

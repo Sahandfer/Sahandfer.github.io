@@ -131,7 +131,7 @@ const EmoBench = () => {
                         <table className="w-full border-collapse">
                             <thead>
                                 <tr className="border-b border-border">
-                                    {tabs.map((tab) => (tab.key === activeTab && tab.columns.map((column, index) => (column !== 'Rank' && column != 'Model' && column != 'Organization' ? <th className="px-6 py-4 text-center">{column}</th> : <th className="px-6 py-4 text-left">{column}</th>))))}
+                                    {tabs.map((tab) => (tab.key === activeTab && tab.columns.map((column, index) => (<th className="px-6 py-4 text-left">{column}</th>))))}
 
                                 </tr>
                             </thead>
