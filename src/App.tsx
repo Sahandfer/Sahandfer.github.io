@@ -18,20 +18,18 @@ function App() {
 
   return (
     <ThemeProvider>
-      <BrowserRouter>
-        <div className={`min-h-screen flex flex-col transition-opacity duration-700 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
-          <ScrollToTop />
-          <Header />
-          <main className="flex-grow">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/EmoBench" element={<EmoBench />} />
-              {/* <Route path="/project/:id" element={<ProjectDetail />} /> */}
-            </Routes>
-          </main>
-          <Footer />
-        </div>
-      </BrowserRouter>
+      <div className={`min-h-screen flex flex-col transition-opacity duration-700 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
+        <ScrollToTop />
+        <Header />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/EmoBench" element={<EmoBench />} />
+            {/* <Route path="/project/:id" element={<ProjectDetail />} /> */}
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </ThemeProvider>
   );
 }
