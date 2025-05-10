@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      // Redirect paths like /emobench to /#/emobench
+      const path = window.location.pathname;
+      if (path !== '/index.html' && path !== '/') {
+        window.location.replace(`/#${path}`);
+      }
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
