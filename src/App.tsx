@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Home from './pages/Home';
-import EmoBench from './pages/Emobench';
+import EmoBench from './pages/EmoBench';
 import ScrollToTop from './components/ui/ScrollToTop';
 import { ThemeProvider } from './context/ThemeContext';
 

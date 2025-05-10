@@ -1,15 +1,3 @@
-interface BenchmarkResult {
-    rank: number;
-    modelName: string;
-    organization: string;
-    overallScore: number;
-    EAScore: number;
-    EUScore: number;
-    date: string;
-    paperUrl?: string;
-    codeUrl?: string;
-}
-
 interface BenchmarkMetric {
     name: string;
     description: string;
