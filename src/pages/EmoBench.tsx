@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ArrowUpRight, FileText, Github, Trophy, Medal, Award, Brain, BrainCircuit } from 'lucide-react';
+import { ArrowUpRight, FileText, Github, Trophy, Medal, Award, Brain, BrainCircuit, Database } from 'lucide-react';
 import { metrics, leaderboard, tabs } from '../data/emobench';
 import SectionHeader from '../components/ui/SectionHeader';
 
@@ -9,35 +9,9 @@ const EmoBench = () => {
     const [activeTab, setActiveTab] = useState<Tab>('overall');
 
     useEffect(() => {
-        document.title = 'EmoBench - Evaluating Emotional Intelligence of LLMs';
+        document.title = 'EmoBench: Evaluating Emotional Intelligence of LLMs';
     }, []);
 
-    const getScores = (entry) => {
-        switch (activeTab) {
-            // case 'EU_en':
-            //     return [entry.EUScore];
-            // case 'EA_en':
-            //     return [entry.EAScore];
-            // case 'EU_zh':
-            //     return [entry.EUScore];
-            // case 'EA_zh':
-            //     return [entry.EAScore];
-            default:
-
-                return [entry.overall];
-        }
-    };
-
-    // const getScore = (entry: typeof leaderboard[0], tab: Tab) => {
-    //     switch (tab) {
-    //         case 'EU':
-    //             return entry.EUScore;
-    //         case 'EA':
-    //             return entry.EAScore;
-    //         default:
-    //             return entry.overallScore;
-    //     }
-    // };
 
     const sortedLeaderboard = [...leaderboard].sort((a, b) => {
         const scoreA = a[activeTab].overall;
@@ -75,6 +49,15 @@ const EmoBench = () => {
                             >
                                 View on GitHub
                                 <Github className="ml-2 h-4 w-4" />
+                            </a>
+                            <a
+                                href="https://huggingface.co/datasets/SahandSab/EmoBench"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn bg-secondary text-text hover:bg-secondary/80"
+                            >
+                                View on Huggingface
+                                <Database className="ml-2 h-4 w-4" />
                             </a>
                         </div>
                     </div>

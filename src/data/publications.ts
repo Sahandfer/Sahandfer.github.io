@@ -36,7 +36,7 @@ export const publications: Publication[] = [
     links: [
       { label: "PDF", url: "https://arxiv.org/pdf/2402.12071" },
       { label: "Code", url: "https://github.com/Sahandfer/EmoBench" },
-      { label: "Leaderboard", url: "/EmoBench" }
+      { label: "Leaderboard", url: "/#emobench" }
     ]
   },
   {
