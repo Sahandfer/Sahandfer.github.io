@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Moon, Sun, Github, Twitter, Linkedin } from 'lucide-react';
+import { Menu, X, Moon, Sun, Github, Twitter, Linkedin, GraduationCap } from 'lucide-react';
 import { useTheme } from '../../context/ThemeContext';
 
 const Header = () => {
@@ -36,6 +36,7 @@ const Header = () => {
   ];
 
   const socialLinks = [
+    { icon: <GraduationCap className="w-5 h-5" />, url: 'https://scholar.google.com/citations?user=EaOudNsAAAAJ&hl=en', label: 'Google Scholar' },
     { icon: <Github className="w-5 h-5" />, url: 'https://github.com/Sahandfer', label: 'GitHub' },
     { icon: <Twitter className="w-5 h-5" />, url: 'https://x.com/sahandsabour', label: 'Twitter' },
     { icon: <Linkedin className="w-5 h-5" />, url: 'https://www.linkedin.com/in/sahandsabour/', label: 'LinkedIn' },

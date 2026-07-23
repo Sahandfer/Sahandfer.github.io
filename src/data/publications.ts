@@ -15,8 +15,31 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
+    title: "PatientHub: A Unified Framework for Patient Simulation",
+    authors: "Sahand Sabour, TszYam Ng, Minlie Huang",
+    year: "2026",
+    venue: "arXiv Preprint",
+    type: "Preprint",
+    abstract: "We introduce a unified framework that consolidates existing patient-simulation methods under uniform prompts and metrics, enabling consistent cross-method evaluation, custom assessment metrics, and rapid development of new LLM-based patient simulators for clinical training and assessment.",
+    links: [
+      { label: "PDF", url: "https://arxiv.org/pdf/2602.11684" },
+      { label: "Code", url: "https://github.com/Sahandfer/PatientHub" }
+    ]
+  },
+  {
+    title: "CandorMD: An AI-Assisted Audio Simulation and Feedback System for Training Clinicians for Medical Error Disclosure",
+    authors: "Inna Wanyin Lin, Sahand Sabour, Hong Sng, Maxine Chan, Minlie Huang, Andrew White, Tim Althoff",
+    year: "2026",
+    venue: "arXiv Preprint",
+    type: "Preprint",
+    abstract: "We present an AI-powered audio simulation platform that helps physicians practice disclosing harmful medical errors, providing real-time practice, actionable feedback, and diverse scenarios informed by interviews with physicians, risk managers, and patient advocates.",
+    links: [
+      { label: "PDF", url: "https://arxiv.org/pdf/2605.20701" }
+    ]
+  },
+  {
     title: "Human Decision-making is Susceptible to AI-driven Manipulation",
-    authors: "Sahand Sabour, June M Liu, Siyang Liu, Chris Z Yao, Shiyao Cui, Xuanming Zhang, Wen Zhang, Yaru Cao, Advait Bhat, Jian Guan, Wei Wu, Rada Mihalcea, Hongning Wang, Tim Althoff, Tatia Lee, Minlie Huang",
+    authors: "Sahand Sabour*, June M Liu*, Siyang Liu, Chris Z Yao, Shiyao Cui, Xuanming Zhang, Wen Zhang, Yaru Cao, Advait Bhat, Jian Guan, Wei Wu, Rada Mihalcea, Hongning Wang, Tim Althoff, Tatia Lee, Minlie Huang",
     year: "2025",
     venue: "Under Review",
     type: "Journal",
@@ -24,6 +47,17 @@ export const publications: Publication[] = [
     links: [
       { label: "PDF", url: "https://arxiv.org/pdf/2502.07663" },
       // { label: "Code", url: "" }
+    ]
+  },
+  {
+    title: "Free Lunch for User Experience: Crowdsourcing Agents for Scalable User Studies",
+    authors: "Siyang Liu, Sahand Sabour, Xiaoyang Wang, Rada Mihalcea",
+    year: "2025",
+    venue: "arXiv Preprint",
+    type: "Preprint",
+    abstract: "We propose using generative agents drawn from large profile databases as simulated participants for UX research, showing that aggregate agent feedback recovers roughly 90% of human findings and offers a scalable, cost-effective complement to human user studies.",
+    links: [
+      { label: "PDF", url: "https://arxiv.org/pdf/2505.22981" }
     ]
   },
   {
@@ -102,11 +136,11 @@ export const publications: Publication[] = [
     title: "Enhanced Large Language Models for Effective Screening of Depression and Anxiety",
     authors: "June M Liu, Mengxia Gao, Sahand Sabour, Zhuang Chen, Minlie Huang, Tatia Lee",
     year: "2025",
-    venue: "Under Review",
+    venue: "Communications Medicine (Nature)",
     type: "Journal",
     abstract: "This paper develops EmoScan, an LLM-based screening system using synthetic clinical interviews (PsyInterview), outperforming GPT-4 in disorder classification (F1=0.7467) and interview quality.",
     links: [
-      { label: "PDF", url: "https://arxiv.org/pdf/2501.08769" },
+      { label: "PDF", url: "https://www.nature.com/articles/s43856-025-01158-1" },
       { label: "Code", url: "https://github.com/Junemengyuan/EmoScan" }
     ]
   },
@@ -138,7 +172,7 @@ export const publications: Publication[] = [
     title: "Coke: A cognitive knowledge graph for machine theory of mind",
     authors: "Jincenzi Wu, Zhuang Chen, Jiawen Deng, Sahand Sabour, Minlie Huang",
     year: "2024",
-    venue: "ACL 2024",
+    venue: "ACL 2024 (AC Best Paper)",
     type: "Conference",
     abstract: "In this project, we construct a knowledge graph with 45k+ cognitive chains to model human mental states, enabling LLMs to better predict behavioral/affective responses in social scenarios.",
     links: [

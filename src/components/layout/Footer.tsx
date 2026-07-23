@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Github, Twitter, Linkedin, Mail } from 'lucide-react';
+import { Github, Twitter, Linkedin, Mail, GraduationCap } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -47,6 +47,15 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4">Connect</h3>
             <div className="flex space-x-4 mb-6">
               <a
+                href="https://scholar.google.com/citations?user=EaOudNsAAAAJ&hl=en"
+                target="_blank"
+                rel="noreferrer"
+                className="text-text/70 hover:text-primary transition-colors"
+                aria-label="Google Scholar"
+              >
+                <GraduationCap className="w-5 h-5" />
+              </a>
+              <a
                 href="https://github.com/Sahandfer"
                 target="_blank"
                 rel="noreferrer"
@@ -74,7 +83,7 @@ const Footer = () => {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="mailto:contact@Sahandfer@gmail.com"
+                href="mailto:Sahandfer@gmail.com"
                 className="text-text/70 hover:text-primary transition-colors"
                 aria-label="Email"
               >
